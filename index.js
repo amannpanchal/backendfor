@@ -98,7 +98,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const cors = require('cors');
 const { v4: uuidv4 } = require('uuid');
-const backendLink = "http://localhost:4000"
+const backendLink = "https://backendfor.onrender.com"
 
 const app = express();
 const PORT = process.env.PORT || 4000;
